@@ -1,0 +1,38 @@
+﻿生成启动时间为 2022/4/6 19:46:03。
+     1>项目“D:\STudy\学习\软件与系统安全\项目\Sniffer\Sniffer\Sniffer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Sniffer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\code\VS2010\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D WPCAP /D HAVE_REMOTE /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AdpDlg.cpp FilterDlg.cpp Sniffer.cpp SnifferDlg.cpp stdafx.cpp
+         AdpDlg.cpp
+         FilterDlg.cpp
+         Sniffer.cpp
+         SnifferDlg.cpp
+     1>d:\study\学习\软件与系统安全\项目\sniffer\sniffer\head.h(19): warning C4005: “igmp”: 宏重定义
+                 d:\study\学习\软件与系统安全\项目\sniffer\sniffer\head.h(11) : 参见“igmp”的前一个定义
+     1>SnifferDlg.cpp(99): warning C4101: “bNameValid”: 未引用的局部变量
+     1>SnifferDlg.cpp(316): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\code\VS2010\VC\include\time.inl(112) : 参见“localtime”的声明
+         stdafx.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\Sniffer.res" Sniffer.rc 
+       Link:
+         D:\code\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\STudy\学习\软件与系统安全\项目\Sniffer\Release\Sniffer.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\Sniffer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\STudy\学习\软件与系统安全\项目\Sniffer\Release\Sniffer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\STudy\学习\软件与系统安全\项目\Sniffer\Release\Sniffer.lib" /MACHINE:X86 Release\Sniffer.res
+         Release\AdpDlg.obj
+         Release\FilterDlg.obj
+         Release\Sniffer.obj
+         Release\SnifferDlg.obj
+         Release\stdafx.obj wpcap.lib ws2_32.lib 
+         正在生成代码
+         已完成代码的生成
+         Sniffer.vcxproj -> D:\STudy\学习\软件与系统安全\项目\Sniffer\Release\Sniffer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\STudy\学习\软件与系统安全\项目\Sniffer\Release\Sniffer.exe;#1" /manifest Release\Sniffer.exe.intermediate.manifest D:\code\VS2010\VC\Include\Manifest\dpiaware.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Sniffer.unsuccessfulbuild”。
+         正在对“Release\Sniffer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\STudy\学习\软件与系统安全\项目\Sniffer\Sniffer\Sniffer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.34
